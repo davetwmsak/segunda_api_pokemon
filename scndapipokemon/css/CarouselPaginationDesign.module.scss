@@ -1,0 +1,53 @@
+@use "../../scndapipokemon/sass/variables.scss" as sass;
+.carousel_pagination {
+    display: sass.$displayFlex;
+    align-items: sass.$positionCenter;
+    justify-content: sass.$positionCenter;
+    margin-top: sass.$sizeTypeAll20;
+  }
+  
+  .carousel_pagination button {
+    margin: sass.$margin05;
+    padding: sass.$sizeTypeAll10 sass.$sizeTypeAll15;
+    border: sass.$borderNone;
+    background-color: sass.$colorpaginationblue;
+    color: sass.$colorWhite;
+    border-radius: sass.$sizeTypeAll5;
+    cursor: sass.$cursorPointer;
+    transition: background-color sass.$transform03;
+  }
+  
+  .carousel_pagination button:hover {
+    background-color: sass.$colorpaginationblueStrong;
+  }
+  
+  .carousel_pagination button:disabled {
+    background-color: sass.$colorCCC;
+    cursor: sass.$cursorNotAllowed;
+  }
+  
+  .page_numbers {
+    display: sass.$displayFlex;
+    overflow-x: auto;
+    max-width: 400px;
+    margin-top: 16px;   
+  }
+  
+  .page_numbers button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .page_numbers button:hover {
+    background-color: #0056b3;
+  }
+  
+  .page_numbers .active {
+    background-color: #0056b3;
+  }  

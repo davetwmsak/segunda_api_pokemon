@@ -1,0 +1,22 @@
+@use "../../scndapipokemon/sass/variables.scss" as sass;
+
+/* //SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: sass.$sizeTypeAll18;  
+  height: sass.$sizeTypeAll18;
+}
+
+::-webkit-scrollbar-track {
+  background: sass.$colorBackgroundScrollBar;
+  border-radius: sass.$sizeTypeAll0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: sass.$colorBlack;
+  border-radius: sass.$sizeTypeAll100;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: sass.$colorBlueDarkBackground;
+}

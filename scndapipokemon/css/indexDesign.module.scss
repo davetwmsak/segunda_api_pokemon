@@ -1,0 +1,13 @@
+@use "../../scndapipokemon/sass/variables.scss" as sass;
+:root {
+  font-family: sass.$letterFamily; 
+  text-align: sass.$positionCenter;
+
+  color-scheme: sass.$colorScheme;
+  color: sass.$colorWhite;
+  background: linear-gradient(to right, sass.$colorBlueDarkBackground, sass.$colorGreenBackground);
+}
+
+h1 {
+  font-size: sass.$fontSize302;
+}

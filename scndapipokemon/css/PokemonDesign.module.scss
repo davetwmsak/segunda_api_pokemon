@@ -1,0 +1,91 @@
+@use "../../scndapipokemon/sass/variables.scss" as sass;
+.pokemon_card {
+  border: sass.$sizeTypeAll1 sass.$colorYellowCRD;
+  border-radius: sass.$sizeTypeAll10;
+  padding: sass.$sizeTypeAll20;
+  margin: sass.$sizeTypeAll20;
+  max-width: sass.$sizeTypeAll300;
+  box-shadow: sass.$sizeTypeAll5 sass.$sizeTypeAll5 sass.$sizeTypeAll22 sass.$colorYellowBXSH;
+  transition: sass.$transform03;
+  flex: sass.$OneOneCalc;
+  box-sizing: sass.$borderbox;
+  position: sass.$positionRelative;
+}
+ 
+.pokemon_card:hover {
+  transform: sass.$scale10;
+}
+.pokemon_card img {
+  width: sass.$sizeTypeAll150;
+  height: sass.$sizeTypeAll150;
+}
+
+.pokemon_card h1 {
+  font-size: sass.$fontSize108;
+  margin-bottom: sass.$sizeTypeAll10;
+  text-transform: sass.$letterCapitalize;
+  
+}
+
+.pokemon_card p   {
+  margin: sass.$margin5;
+}
+
+.pokemon_id {
+  position: sass.$positionAbsolute;
+  top: sass.$sizeTypeAll10;
+  left: sass.$sizeTypeAll10;
+  background-color: sass.$colorLightBlueBackground;
+  padding: sass.$sizeTypeAll5 sass.$sizeTypeAll10;
+  border-radius: sass.$sizeTypeAll5;
+  font-weight: sass.$letterBold;
+}
+
+.pokemon_list {
+  display: sass.$displayFlex;
+  flex-wrap: sass.$wrap;
+  justify-content: sass.$positionCenter;
+}
+
+.search_container {
+  display: sass.$displayFlex;
+  justify-content: sass.$positionCenter;
+  margin-bottom: sass.$sizeTypeAll20;
+}
+
+.search_input {
+  margin: sass.$margin010;
+  padding: sass.$sizeTypeAll10;
+  border: sass.$sizeTypeAll1 sass.$colorSearch;
+  border-radius: sass.$sizeTypeAll5;
+  font-size: sass.$fontSize1;
+  width: sass.$sizeTypeAll200;
+  transition: box-shadow sass.$transform03;
+  border-radius: sass.$sizeTypeAll18;
+  &:hover{
+    background-color: sass.$colorTransparentBackground;
+    color: sass.$colorWhite;
+    border-top: sass.$sizeTypeAll0 sass.$colorSearch;
+    transition: sass.$trasitionConf1;
+    box-shadow: sass.$sizeTypeAll0 sass.$sizeTypeAll2 sass.$sizeTypeAll20 sass.$sizeTypeAll10 sass.$colorSearch2;
+}
+}
+
+.pagination {
+  justify-content: sass.$positionCenter;
+  margin-top: sass.$sizeTypeAll25;
+}
+
+.pagination button {
+  margin: sass.$sizeTypeAll10;
+  padding: sass.$sizeTypeAll6 sass.$sizeTypeAll12 ;
+  border: sass.$borderNone;
+  background-color: sass.$colorGreenBlueBackground;
+  color: sass.$colorWhite;
+  border-radius: sass.$sizeTypeAll90;
+  cursor: sass.$cursorPointer;
+}
+
+.pagination button:hover {
+  background-color: sass.$colorSearch;
+}

@@ -1,0 +1,392 @@
+$colorBlueDarkBackground:  #0b3643;
+$colorGreenBackground: #293424;
+$colorWhiteBackground: #fff;
+$colorLightBlueBackground: #889fa6;
+$colorTransparentBackground: transparent;
+$colorGreenBlueBackground: #375654;
+$colorScheme: light dark;
+$colorBackgroundScrollBar: #293424;
+$colorpaginationblue: #007bff;
+$colorpaginationblueStrong:#0056b3;
+$colorCCC: #ccc;
+:export {
+    colorBlueDarkBackground: $colorBlueDarkBackground;
+    colorYellowBackground: $colorGreenBackground;
+    colorWhiteBackground: $colorWhiteBackground;
+    colorLightBlueBackground: $colorLightBlueBackground;
+    colorTransparentBackground: $colorTransparentBackground;
+    colorGreenBlueBackground: $colorGreenBlueBackground;
+    colorScheme: $colorScheme;
+    colorBackgroundScrollBar: $colorBackgroundScrollBar;
+    colorpaginationblue: $colorpaginationblue;
+    colorpaginationblueStrong: $colorpaginationblueStrong;
+    colorCCC: $colorCCC;
+
+}
+//variables para colores de tag tipo <a><li><p><strong><span><h1><h2>...
+$colorWhite: #fff;
+$colorBlueDark: #2f2e41;
+$colorYellowBXSH: #fccc04;
+$colorYellowCRD: #c7b019;
+$colorBlack: #000;
+$colorSearch: solid #427873;
+$colorSearch2: #9ae0ba;
+:export {
+    colorWhite: $colorWhite;
+    colorBlueDark: $colorBlueDark;
+    colorYellowBXSH: $colorYellowBXSH;
+    colorYellowCRD: $colorYellowCRD;
+    colorBlack: $colorBlack;
+    colorSearch: $colorSearch;
+    colorSearch2: $colorSearch2;
+} 
+//variables para el tamaño de cualquier letras
+$sizeLittle: 0.6rem; //12.8px
+$sizeLittle1: 0.8rem; //12.8px
+$sizeMedium: 1rem; //16px
+$sizeMediumX1: 1.1rem; //17.6px
+$sizeMediumX2: 1.2rem; //19.2px
+$sizeMediumX3: 1.5rem; //24px
+$sizeMediumX4: 1.7rem; //27.2px
+$sizeMediumX5: 1.8rem; //28.8px
+$sizeMediumLarge: 2rem; //32px
+$sizeMediumLargeX1: 2.1rem; //33.6px
+$sizeMediumLargeX2: 2.2rem; //35.2px
+$sizeMediumLargeX3: 2.5rem; //40px
+$sizeMediumLargeX4: 2.7rem; //43.2px
+$sizeMediumLargeX5: 2.8rem; //44.8px
+$sizeLarge: 3rem; //48px
+:export {
+    sizeLittle: $sizeLittle;
+    sizeLittle1: $sizeLittle1;
+    sizeMedium: $sizeMedium;
+    sizeMediumX1: $sizeMediumX1;
+    sizeMediumX2: $sizeMediumX2;
+    sizeMediumX3: $sizeMediumX3;
+    sizeMediumX4: $sizeMediumX4;
+    sizeMediumX5: $sizeMediumX5;
+    sizeMediumLarge: $sizeMediumLarge;
+    sizeMediumLargeX1: $sizeMediumLargeX1;
+    sizeMediumLargeX2: $sizeMediumLargeX2;
+    sizeMediumLargeX3: $sizeMediumLargeX3;
+    sizeMediumLargeX4: $sizeMediumLargeX4;
+    sizeMediumLargeX5: $sizeMediumLargeX5;
+    sizeLarge: $sizeLarge;
+}
+//variables para cualquier tipo de tamaño
+//px
+$sizeTypeAll0: 0px;
+$sizeTypeAll1: 1px;
+$sizeTypeAll2: 2px;
+$sizeTypeAll3: 3px;
+$sizeTypeAll4: 4px;
+$sizeTypeAll5: 5px;
+$sizeTypeAll6: 6px;
+$sizeTypeAll7: 7px;
+$sizeTypeAll8: 8px;
+$sizeTypeAll9: 9px;
+$sizeTypeAll10: 10px;
+$sizeTypeAll12: 12px;
+$sizeTypeAll15: 15px;
+$sizeTypeAll18: 18px;
+$sizeTypeAll20: 20px;
+$sizeTypeAll22: 22px;
+$sizeTypeAll25: 25px;
+$sizeTypeAll90: 90px;
+$sizeTypeAll100: 100px;
+$sizeTypeAll150: 150px;
+$sizeTypeAll200: 200px;
+$sizeTypeAll300: 300px;
+$sizeTypeAll400: 400px;
+$sizeTypeAll500: 500px;
+$sizeTypeAll600: 600px;
+$sizeTypeAll700: 700px;
+$sizeTypeAll800: 800px;
+$sizeTypeAll900: 900px;
+$sizeTypeAll1280: 1280px;
+//Porcentaje
+$sizeTypePercentage0: 0%;
+$sizeTypePercentage5: 5%;
+$sizeTypePercentage10: 10%;
+$sizeTypePercentage12: 12%;
+$sizeTypePercentage15: 15%;
+$sizeTypePercentage20: 20%;
+$sizeTypePercentage25: 25%;
+$sizeTypePercentage30: 30%;
+$sizeTypePercentage33: 33.333%;
+$sizeTypePercentage35: 35%;
+$sizeTypePercentage40: 40%;
+$sizeTypePercentage45: 45%;
+$sizeTypePercentage50: 50%;
+$sizeTypePercentage55: 55%;
+$sizeTypePercentage60: 60%;
+$sizeTypePercentage65: 65%;
+$sizeTypePercentage70: 70%;
+$sizeTypePercentage75: 75%;
+$sizeTypePercentage80: 80%;
+$sizeTypePercentage85: 55%;
+$sizeTypePercentage90: 90%;
+$sizeTypePercentage95: 95%;
+$sizeTypePercentage100: 100%;
+//vh = ViewHeight
+$sizeTypeViewHeight10:10vh;
+$sizeTypeViewHeight20:20vh;
+$sizeTypeViewHeight30:30vh;
+$sizeTypeViewHeight40:40vh;
+$sizeTypeViewHeight50:50vh;
+$sizeTypeViewHeight60:60vh;
+$sizeTypeViewHeight70:70vh;
+$sizeTypeViewHeight80:80vh;
+$sizeTypeViewHeight90:90vh;
+$sizeTypeViewHeight100:100vh;
+//rem
+$sizeTypeRem0:0rem;
+$sizeTypeRem1:1rem;
+$sizeTypeRem2:2rem;
+$sizeTypeRem3:3rem;
+$sizeTypeRem4:5rem;
+$sizeTypeRem5:4rem;
+:export{
+    sizeTypeAll0: $sizeTypeAll0;
+    sizeTypeAll1: $sizeTypeAll1;
+    sizeTypeAll2: $sizeTypeAll2;
+    sizeTypeAll3: $sizeTypeAll3;
+    sizeTypeAll4: $sizeTypeAll4;
+    sizeTypeAll5: $sizeTypeAll5;
+    sizeTypeAll6: $sizeTypeAll6;
+    sizeTypeAll7: $sizeTypeAll7;
+    sizeTypeAll8: $sizeTypeAll8;
+    sizeTypeAll9: $sizeTypeAll9;
+    sizeTypeAll10: $sizeTypeAll0;
+    sizeTypeAll15: $sizeTypeAll2;
+    sizeTypeAll10: $sizeTypeAll5;
+    sizeTypeAll18: $sizeTypeAll18;
+    sizeTypeAll20: $sizeTypeAll20;
+    sizeTypeAll22: $sizeTypeAll22;
+    sizeTypeAll25: $sizeTypeAll25;
+    sizeTypeAll90: $sizeTypeAll90;
+    sizeTypeAll100: $sizeTypeAll100;
+    sizeTypeAll150: $sizeTypeAll150;
+    sizeTypeAll200: $sizeTypeAll200;
+    sizeTypeAll300: $sizeTypeAll300;
+    sizeTypeAll400: $sizeTypeAll400;
+    sizeTypeAll500: $sizeTypeAll500;
+    sizeTypeAll600: $sizeTypeAll600;
+    sizeTypeAll700: $sizeTypeAll700;
+    sizeTypeAll800: $sizeTypeAll800;
+    sizeTypeAll900: $sizeTypeAll900;
+    sizeTypePercentage0: $sizeTypePercentage0;
+    sizeTypePercentage5: $sizeTypePercentage5;
+    sizeTypePercentage10: $sizeTypePercentage10;
+    sizeTypePercentage15: $sizeTypePercentage15;
+    sizeTypePercentage20: $sizeTypePercentage20;
+    sizeTypePercentage25: $sizeTypePercentage25;
+    sizeTypePercentage30: $sizeTypePercentage30;
+    sizeTypePercentage33: $sizeTypePercentage33;
+    sizeTypePercentage35: $sizeTypePercentage35;
+    sizeTypePercentage40: $sizeTypePercentage40;
+    sizeTypePercentage45: $sizeTypePercentage45;
+    sizeTypePercentage50: $sizeTypePercentage50;
+    sizeTypePercentage55: $sizeTypePercentage55;
+    sizeTypePercentage60: $sizeTypePercentage60;
+    sizeTypePercentage65: $sizeTypePercentage65;
+    sizeTypePercentage70: $sizeTypePercentage70;
+    sizeTypePercentage75: $sizeTypePercentage75;
+    sizeTypePercentage80: $sizeTypePercentage80;
+    sizeTypePercentage85: $sizeTypePercentage85;
+    sizeTypePercentage90: $sizeTypePercentage90;
+    sizeTypePercentage95: $sizeTypePercentage95;
+    sizeTypePercentage100: $sizeTypePercentage100;
+    sizeTypeViewHeight10: $sizeTypeViewHeight10;
+    sizeTypeViewHeight20: $sizeTypeViewHeight20;
+    sizeTypeViewHeight30: $sizeTypeViewHeight30;
+    sizeTypeViewHeight40: $sizeTypeViewHeight40;
+    sizeTypeViewHeight50: $sizeTypeViewHeight50;
+    sizeTypeViewHeight60: $sizeTypeViewHeight60;
+    sizeTypeViewHeight70: $sizeTypeViewHeight70;
+    sizeTypeViewHeight80: $sizeTypeViewHeight80;
+    sizeTypeViewHeight90: $sizeTypeViewHeight90;
+    sizeTypeViewHeight100: $sizeTypeViewHeight100;
+    sizeTypeRem0:$sizeTypeRem0;
+    sizeTypeRem1:$sizeTypeRem1;
+    sizeTypeRem2:$sizeTypeRem2;
+    sizeTypeRem3:$sizeTypeRem3;
+    sizeTypeRem4:$sizeTypeRem4;
+    sizeTypeRem5:$sizeTypeRem5;
+}
+//variables para el grosor de las letras
+$weight100: 100;
+$weight200: 200;
+$weight300: 300;
+$weight400: 400;
+$weight500: 500;
+$weight600: 600;
+$weight700: 700;
+$weight800: 800;
+$weight900: 900;
+$weightBold: bold;
+$weightLighter: lighter;
+$weightInherit: inherit;
+$weightNormal: normal;
+:export {
+    weight100: $weight100;
+    weight200: $weight200;
+    weight300: $weight300;
+    weight400: $weight400;
+    weight500: $weight500;
+    weight600: $weight600;
+    weight700: $weight700;
+    weight800: $weight800;
+    weight900: $weight900;
+    weightBold: $weightBold;
+    weightLighter: $weightLighter;
+    weightInherit: $weightInherit;
+    weightNormal: $weightNormal;
+}
+//variables para el padding
+$paddingLittle: 0.5rem; //8px
+$paddingLittle1: 0.7rem; //11.2px
+$paddingLittle2: 0.8rem; //12.8px
+$paddingMedium: 1rem; //16px
+$paddingMedium1: 1.3rem; //20.8px
+$paddingMedium2: 1.5rem; //24px
+$paddingMedium3: 1.7rem; //27.2px
+$paddingMedium4: 1.8rem; //28.8px
+$paddingLarge: 2rem; //32px
+:export {
+    paddingLittle: $paddingLittle;
+    paddingLittle1: $paddingLittle1;
+    paddingLittle2: $paddingLittle2;
+    paddingMedium: $paddingMedium;
+    paddingMedium1: $paddingMedium1;
+    paddingMedium2: $paddingMedium2;
+    paddingMedium3: $paddingMedium3;
+    paddingMedium4: $paddingMedium4;
+    paddingLarge: $paddingLarge;
+}
+//variables para el border radius
+$borderLittle: 0px;
+$borderLittle1: 1px;
+$borderLittle2: 2px;
+$borderLittle3: 3px;
+$borderLittle4: 4px;
+$borderLittle5: 5px;
+$borderMedium: 10px;
+$borderMedium1: 15px;
+$borderMedium2: 20px;
+$borderMedium3: 30px;
+$borderMedium4: 40px;
+$borderMedium5: 50px;
+:export {
+    borderLittle: $borderLittle;
+    borderLittle1: $borderLittle1;
+    borderLittle2: $borderLittle2;
+    borderLittle3: $borderLittle3;
+    borderLittle4: $borderLittle4;
+    borderLittle5: $borderLittle5;
+    borderMedium: $borderMedium;
+    borderMedium1: $borderMedium1;
+    borderMedium2: $borderMedium2;
+    borderMedium3: $borderMedium3;
+    borderMedium4: $borderMedium4;
+    borderMedium5: $borderMedium5;
+}
+//tamnaños para el responsive desing
+$responisveNormal1500:1500px;
+$responsiveNormal:1080px;
+$responsiveMedium:800px;
+$responsiveLittle:425px;
+:export {
+    responisveNormal1500: $responisveNormal1500;
+    responsiveNormal: $responsiveNormal;
+    responsiveMedium: $responsiveMedium;
+    responsiveLittle: $responsiveLittle;
+}
+// propiedades de z-index
+$sizeZindex0:0;
+$sizeZindex1:1;
+$sizeZindex2:2;
+$sizeZindex3:3;
+$sizeZindex4:10;
+$sizeZindex5:50;
+$sizeZindex6:100;
+:export {
+    sizeZindex0: $sizeZindex0;
+    sizeZindex1: $sizeZindex1;
+    sizeZindex2: $sizeZindex2;
+    sizeZindex3: $sizeZindex3;
+    sizeZindex4: $sizeZindex4;
+    sizeZindex5: $sizeZindex5;
+    sizeZindex6: $sizeZindex6;
+}
+// transition transform
+$transform03: 0.3s;
+$trasitionConf1:0.2s all ease-in-out;
+:export {
+    transform03: $transform03;
+    transitionConf1: $trasitionConf1;
+}
+// variable border-box
+$borderbox: border-box;
+:export {
+    borderbox: $borderbox;
+}
+// Posiciones
+$OneOneCalc: 1 1 calc(33.333% - 20px);
+$wrap: wrap;
+$positionRelative: relative;
+$positionAbsolute: absolute;
+$positionCenter: center;
+:export {
+    OneOneCalc: $OneOneCalc;
+    wrap: $wrap;
+    positionRelative: $positionRelative;
+    positionAbsolute: $positionAbsolute;
+    positionCenter: $positionCenter;
+}
+//escalas
+$scale10: scale(1.10);
+:export {
+    scale10: $scale10;
+}
+// em
+$fontSize108: 1.8em;
+$fontSize1: 1em;
+$fontSize302: 3.2em;
+:export {
+    fontSize105: $fontSize108;
+    fontSize1: $fontSize1;
+    fontSize302: $fontSize302;
+}
+//letras
+$letterCapitalize: capitalize;
+$letterBold: bold;
+$letterFamily: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+:export {
+    letterCapitalize: $letterCapitalize;
+    letterBold: $letterBold;
+    letterFamily: $letterFamily;
+}
+//margin variables
+$margin5: 5px 0;
+$margin010: 0 10px;
+$margin05: 0 5px;
+:export {
+    margin5: $margin5;
+    margin010: $margin010;
+    margin05: $margin05;
+}
+//display
+$displayFlex: flex;
+$borderNone: none;
+:export {
+    displayFlex: $displayFlex;
+    borderNone: $borderNone;
+}
+//cursores
+$cursorPointer: pointer;
+$cursorNotAllowed: not-allowed;
+:export {
+    cursorPointer: $cursorPointer;
+    cursorNotAllowed: $cursorNotAllowed;
+}
